@@ -8,65 +8,87 @@
     <title>Loja Top</title>
   </head>
   <body>
-    <h1>Loja Top</h1>
-    <ul>
-      <!-- <li> list item -->
-      <li><a href="#categories">Categorias</a></li>
-      <li><a href="#titles">Títulos</a></li>
-      <li><a href="#about">Sobre Nós</a></li>
-    </ul>
+    <header>
+      <nav>
+        <h1>Loja Top</h1>
+        <ul>
+          <!-- <li> list item -->
+          <li><a href="#categories">Categorias</a></li>
+          <li><a href="#titles">Títulos</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <!-- CATEGORIAS -->
-    <h2 id="categories">Categorias</h2>
-    <ul>
-      <li>Fantasia</li>
-      <li>Aventura</li>
-    </ul>
+    <main>
+      <section id="categories">
+        <!-- CATEGORIAS -->
+        <h2>Categorias</h2>
+        <ul>
+          <li>Fantasia</li>
+          <li>Aventura</li>
+        </ul>
+      </section>
 
-    <!--TITULOS-->
-    <h2 id="titles">Titulos</h2>
+      <section id="titles">
+        <h2>Titulos</h2>
+        <div>
+          <img src="img/img1.jpg" alt="Coraline" />
+          <div>
+            <h3>Coraline</h3>
+            <p>Certas portas não devem ser abertas.</p>
+            <p><span>R$</span>34.90</p>
+          </div>
+        </div>
 
-    <!--CORALINE-->
-    <img src="img/img1.jpg" alt="Coraline" />
-    <h3>Coraline</h3>
-    <p>Certas portas não devem ser abertas.</p>
-    <p>R$34.90</p>
+        <div>
+          <img src="img/img2.jpg" alt="Alice no país das maravilhas" />
+          <div>
+            <h3>Alice no País das Maravilhas</h3>
+            <p>
+              Uma menina, um coelho e uma história capazes de fazer qualquer um
+              de nós voltar a sonhar.
+            </p>
+            <p><span>R$</span>37.30</p>
+          </div>
+        </div>
+      </section>
 
-    <!--ALICE-->
-    <img src="img/img2.jpg" alt="Alice no país das maravilhas" />
-    <h3>Alice no País das Maravilhas</h3>
-    <p>
-      Uma menina, um coelho e uma história capazes de fazer qualquer um de nós
-      voltar a sonhar.
-    </p>
-    <p>R$37.30</p>
+      <section id="about">
+        <h2>Sobre nós</h2>
+        <h3>O que fazemos</h3>
+        <p>
+          Somos uma empresa com conteúdos criativos que transforma leitores.
+        </p>
+        <h3>Saiba mais</h3>
+        <iframe
+          width="320"
+          height="180"
+          src="https://www.youtube.com/embed/vQq7uh2SfT4"
+          title="VIDEO"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
 
-    <!--SOBRE-->
-    <h2 id="about">Sobre nós</h2>
-    <h3>O que fazemos</h3>
-    <p>Somos uma empresa com conteúdos criativos que transforma leitores.</p>
-    <h3>Saiba mais</h3>
-    <iframe
-      width="320"
-      height="180"
-      src="https://www.youtube.com/embed/vQq7uh2SfT4"
-      title="VIDEO"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-
-    <!--SIGA NOS-->
-    <h2>Siga-nos</h2>
-    <a href="https://github.com/Emillyme">GitHub</a>
-    <a href="https://www.linkedin.com/in/emilly-mello-a02a55248/">Likedin</a>
-    
-    <h2>Entre em contato</h2>
-    <address>
-        Escreva para o nosso <a href="mailto:emill.ymello212@gmail.com">email</a>.
-        <br>
-        Até a próxima!
-    </address>
-
+    <footer>
+      <div>
+        <div>
+          <h2>Siga-nos</h2>
+          <a href="https://github.com/Emillyme">GitHub</a>
+          <a href="https://www.linkedin.com/in/emilly-mello-a02a55248/"
+            >Likedin</a>
+        </div>
+  
+        <div>
+          <h2>Entre em contato</h2>
+          <address>
+            Escreva para o nosso <a href="mailto:emill.ymello212@gmail.com">email</a><br /> Até a próxima!
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
